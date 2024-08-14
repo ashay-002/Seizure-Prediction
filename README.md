@@ -13,8 +13,11 @@ The dataset used for this project is the Epileptic Seizure Recognition dataset, 
 # Data Preprocessing
 
 Loading Data: The dataset is loaded and examined for missing values and duplicates.
+
 Label Adjustment: The target variable y is converted into a binary label.
+
 Handling Imbalance: SMOTE (Synthetic Minority Over-sampling Technique) is applied to balance the class distribution.
+
 Feature Scaling: Data is standardized using StandardScaler for better model performance.
 
 # Feature Extraction
@@ -24,6 +27,7 @@ Wavelet Transform (DWT) is applied to extract features from the EEG data. We use
 # Modeling
 
 Various machine learning models are implemented and evaluated:
+
 Random Forest Classifier,
 Gradient Boosting Classifier,
 XGBoost Classifier,
@@ -43,9 +47,13 @@ These metrics are calculated using cross-validation and confusion matrices to en
 # Results
 
 Random Forest Classifier: Achieved average accuracy, sensitivity, and specificity through cross-validation.
+
 Gradient Boosting: Produced high accuracy with sensitivity and specificity measurements.
+
 XGBoost: Demonstrated competitive performance with significant sensitivity and specificity.
+
 Neural Network: Provided satisfactory results with a well-structured architecture.
+
 AdaBoost, Bagging, and Stacking: Further improved the classification results by combining the strengths of individual models.
 
 # Conclusion
