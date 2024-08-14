@@ -24,19 +24,20 @@ Wavelet Transform (DWT) is applied to extract features from the EEG data. We use
 # Modeling
 
 Various machine learning models are implemented and evaluated:
-Random Forest Classifier
-Gradient Boosting Classifier
-XGBoost Classifier
-Neural Network
-AdaBoost Classifier
-Bagging Classifier
+Random Forest Classifier,
+Gradient Boosting Classifier,
+XGBoost Classifier,
+Neural Network,
+AdaBoost Classifier,
+Bagging Classifier,
 Stacking Classifier
 
 # Evaluation Metrics:
 
-Accuracy
-Sensitivity
-Specificity
+Accuracy,
+Sensitivity,
+Specificity,
+
 These metrics are calculated using cross-validation and confusion matrices to ensure robust performance.
 
 # Results
